@@ -1,12 +1,24 @@
 .sign-in-container {
-    flex: 1 1;
-    padding: 50px 142px;
+    flex: 1;
+    padding: 50px;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 734px;
+    max-width: 500px;
     margin: auto;
+}
+
+@media (max-width: 768px) {
+    .sign-in-container {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sign-in-container {
+        padding: 10px;
+    }
 }
 
 .back-link {

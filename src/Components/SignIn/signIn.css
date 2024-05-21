@@ -1,0 +1,88 @@
+.sign-in-container {
+    flex: 1 1;
+    padding: 50px 142px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 734px;
+    margin: auto;
+}
+
+.back-link {
+    color: black;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.sign-in-container h1 {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.sign-in-container p {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+}
+
+.options .forgot-password {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.sign-in-button {
+    width: 100%;
+    padding: 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.create-account {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.create-account .create-account-link {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: underline;
+}
